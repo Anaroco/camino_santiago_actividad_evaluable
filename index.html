@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camino del Norte</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <input type="checkbox" id="menu">
+      <label for="menu" id="top"> ☰ </label>
+      <ul id="hamburguesa">
+        <li class="arriba"><a
+          href="https://www.turismoasturias.es/camino-de-santiago" target="_blank">Localidades</a></li>
+
+        <li class="arriba"><a
+          href="https://www.gronze.com/camino-norte" target="_blank">Etapas</a></li>
+
+        <li class="arriba"><a
+          href="https://www.alberguescaminosantiago.com/camino-del-norte/albergues/" target="_blank">Albergues</a></li>
+
+        <li class="arriba"><a
+          href="https://albergue-municipal-de-peregrinos-pinera.business.site/" target="_blank">Web</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="asturias">Camino del Norte Asturias</h1>
+    <img class="map" src="./imagenes/mapa.png" alt="mapa de asturias">
+    <p class="description">Mucho antes de que se consolidara el Camino Francés, sin duda la ruta jacobea más conocida y
+      transitada, los romeros medievales empezaron a preferir para su aventura el llamado Camino de la Costa, un
+      recorrido de 815 kilómetros que atravesaba el noroeste peninsular siguiendo la línea de costa.</p>
+
+  </header>
+
+  <main>
+    <h2 class="places">Localidades</h2>
+    <div id="recommended" class="villages">
+
+      <div>
+        <img src="./imagenes/cadavedo.jpg" alt="foto regalina">
+        <p class="name">La Regalina Cadavedo</p>
+      </div>
+
+      <div>
+        <img src="./imagenes/luarca.jpg" alt="foto luarca">
+        <p class="name">Puerto pesquero Luarca </p>
+      </div>
+
+      <div>
+        <img src="./imagenes/piñera.jpg" alt="foto albergue piñera">
+        <p class="name">Albergue de Piñera </p>
+      </div>
+
+      <div>
+        <img src="./imagenes/la_Caridad.jpg" alt="foto iglesia la caridad">
+        <p class="name">Iglesia de La Caridad</p>
+      </div>
+
+      <div>
+        <img src="./imagenes/tapia.jpg" alt="foto tapia de casariego">
+        <p class="name">Muelle Tapia de Casariego</p>
+      </div>
+
+    </div>
+
+    <div>
+      <h2>Etapas del Camino</h2>
+      <h3>15 kms entre las etapas</h3>
+
+      <ul id="etapas">
+        <li>Etapa 27: Cadavedo - Luarca </li>
+        <li>Etapa 28: Luarca - Piñera </li>
+        <li>Etapa 29: Piñera - La Caridad </li>
+        <li>Etapa 30: Caridad - Tapia de Casariego </li>
+      </ul>
+
+    </div>
+    <h2>Albergues</h2>
+    <div id="albergue">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Albergue de Cadavedo</th>
+            <th>Albergue de Luarca</th>
+            <th>Albergue de Piñera</th>
+            <th>Albergue de Caridad</th>
+            <th>Albergue de Tapia C.</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>Capacidad</th>
+            <td>12 plazas en Literas</td>
+            <td>24 plazas en Literas</td>
+            <td>24 plazas en Literas</td>
+            <td>16 plazas en Literas</td>
+            <td>20 plazas en Literas</td>
+          </tr>
+          <tr>
+            <th>Contacto</th>
+            <td> +34 653128642</td>
+            <td> +34 660819434</td>
+            <td> +34 611040517</td>
+            <td> +34 685154405</td>
+            <td> +34 629664555</td>
+          </tr>
+        </tbody>
+
+      </table>
+
+    </div>
+
+    <div class="information">
+      <h2>Para recibir mas información</h2>
+      <img class="concha" src="./imagenes/concha_camino.png" alt="concha camino santiago">
+      
+      <form>
+        <div class="form-group">
+          <label id="name">Nombre:</label>
+          <input type="text" name="nombre" class="form-control">
+        </div>
+        <div class="form-group">
+          <label id="mail">Email:</label>
+          <input type="email" name="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label id="mensaje">Mensaje:</label>
+          <textarea name="mensaje" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Enviar" class="form-control">
+        </div>
+      </form>
+    </div>
+
+    <div class="back">
+      <a href="/index.html">
+          <img class="back-button" src="./imagenes/flecha_top.png" alt="Botón de volver">
+      </a>
+  </div>
+
+  </main>
+
+  <footer>
+    <p>Copyright®. Todos los derechos reservados <a
+        href="https://albergue-municipal-de-peregrinos-pinera.business.site/" target="_blank">Albergue Piñera</a></p>
+  </footer>
+</body>
+
+</html>
